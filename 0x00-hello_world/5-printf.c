@@ -1,11 +1,14 @@
 #include <stdio.h>
 
 /**
- *Code runs here
+ *Code runs here for 
+ *printing grammar
 */
 
-int main (void)
-	{	
+/*Main program starts here*/
+int main(void)
+{	
 	printf("with proper grammar, but the outcome is a piece of art,\n");
-	return(0);
+/*End the program here*/
+	return (0);
 	}
