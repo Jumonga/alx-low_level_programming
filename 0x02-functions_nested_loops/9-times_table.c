@@ -9,15 +9,15 @@
 
 void times_table(void)
 {
-	int y, x, prod;
+	int a, x, prod;
 
 	prod = 0;
 
-	for (y = 0; y <= 9; x++)
+	for (a = 0; a <= 9; a++)
 	{
-		for(x = 0; x <= 9; x++)
+		for (x = 0; x <= 9; x++)
 		{
-			prod = y * x;
+			prod = a * x;
 			if (x != 0)
 			{
 				_putchar(',');
