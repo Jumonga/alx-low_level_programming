@@ -1,15 +1,21 @@
 #include "main.h"
-
+#include <stdio.h>
 
 
 /**
- * add - add two ints
- * @x: first int to add
- * @y: second int to add
- * Return: sum of both ints
+ * print_to_98 - To print all natural numbers from input to 98
+ * @n: starting point
+ * 
+ * Return: void returns nothing.
  **/
 
-int add(int x, int y)
+void print_to_98(int n)
 {
-	return (x + y);
+	if (n <= 98)
+		for (n = n; n <= 97; n++)
+			printf("%d, ", n);
+	else
+		for (n = n; n > 98; n--)
+			printf("%d, ", n);
+	printf("98\n");
 }
