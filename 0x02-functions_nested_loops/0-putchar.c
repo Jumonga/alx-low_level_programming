@@ -8,8 +8,8 @@
  *
  * Return: 0 for success
  */
- int main(void)
- {
+int main(void)
+{
 	 _putchar('_');
 	 _putchar('p');
 	 _putchar('u');
@@ -21,4 +21,4 @@
 	 _putchar('\n');
 	 return (0);
 
- }
+}
