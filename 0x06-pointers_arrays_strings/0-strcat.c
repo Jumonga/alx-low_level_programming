@@ -4,7 +4,8 @@
  * two strings
  **/
 
-char *_strcat(char *dest, char *src){
+char *_strcat(char *dest, char *src)
+{
 	int i, j;
 
 	i = 0;
@@ -13,7 +14,8 @@ char *_strcat(char *dest, char *src){
 		i++;
 
 	
-	for (j =0; src[j] != '0'; j++){
+	for (j = 0; src[j] != '0'; j++)
+	{
 		dest[i] = src[j];
 		i++;
 	}
