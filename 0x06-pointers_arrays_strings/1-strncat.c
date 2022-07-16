@@ -1,4 +1,11 @@
 #include "main.h"
+/**
+ * _strncat - concatenates specified values from src to dest
+ * @src: second string to copy from
+ * @dest: string to be overwritten
+ **/
+
+
 
 char *_strncat(char *dest, char *src, int n)
 {
@@ -8,6 +15,7 @@ char *_strncat(char *dest, char *src, int n)
 
 	while (dest[i] != '\0')
 		i++;
+
 	for (j = 0; j < n; j++)
 	{
 		dest[i] = src[j];
